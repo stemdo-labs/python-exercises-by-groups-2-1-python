@@ -9,3 +9,5 @@ class Alumno(Persona):
 
     
 alumno1=Alumno("Pedro",19)
+
+print("El alumno es: "+alumno1.nombre + " y tiene "+str(alumno1.edad)+" años")
